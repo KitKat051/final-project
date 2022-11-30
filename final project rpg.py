@@ -47,13 +47,13 @@ yes = "yes"
 no = "no"
 
 
-level = (XP / 100)
+level = 0
 XP = (0)
 xpcost = (1)
 monsters = ['Goblin', 'Orc', 'Goblin-horde', 'Orcsquad',]
 pmonsters = ['Goblin', 'Orc', 'Goblin-horde', 'Orcsquad']
 bmonster = ['wyrm']
-spawn-monster == random.randit(1,1)
+spawn_monster = random.randit(1,1)
 
 #beginning of the game
 choice = 0
